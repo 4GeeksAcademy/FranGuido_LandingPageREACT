@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Jumbotron from "./Jumbotron";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -9,6 +10,7 @@ const Home = () => {
 	return (
 		<div className="container text-center">
 			<Navbar/>
+			<Jumbotron/>
 			<h1 className="text-center mt-5">Bye Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
