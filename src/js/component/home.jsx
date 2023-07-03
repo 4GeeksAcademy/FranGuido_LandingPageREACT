@@ -1,12 +1,9 @@
 import React from "react";
-import {Navbar} from "./Navbar";
-import {Jumbotron} from "./Jumbotron";
-import {InfoCard} from "./InfoCard";
-import {Fatfooter} from "./Fatfooter";
+import Navbar from "./Navbar";
+import Jumbotron from "./Jumbotron";
+import Fatfooter from "./Fatfooter";
+import CardSet from "./CardSet";
 
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
 
 //create your first component
@@ -15,9 +12,12 @@ const Home = () => {
 		<div className="container text-center">
 			<Navbar/>
 			<Jumbotron/>
-			<InfoCard/>
+			<div className="row">
+				<div className="col"> <CardSet/> </div>
+				<div className="col"> <CardSet/> </div>
+				<div className="col"> <CardSet/> </div>
+			</div>
 			<Fatfooter/>
-			
 		</div>
 	);
 };
