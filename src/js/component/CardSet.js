@@ -18,12 +18,12 @@ const cardData = {
 
 const CardSet = () => {
     return (
-        <div class="mt-4 p-5 rounded" style={cardStyle}>
-            <img src={cardData.image} class="card-img-top" alt="..."></img>
-            <div class="card-body p-3">
-                <h5 class="card-title">{cardData.cardTitle}</h5>
-                <p class="card-text">{cardData.cardDescription}</p>
-                <a href={cardData.button.url} class="btn btn-primary">{cardData.button.label}</a>
+        <div className="mt-4 p-5 rounded" style={cardStyle}>
+            <img src={cardData.image} className="card-img-top" alt="..."></img>
+            <div className="card-body p-3">
+                <h5 className="card-title">{cardData.cardTitle}</h5>
+                <p className="card-text">{cardData.cardDescription}</p>
+                <a href={cardData.button.url} className="btn btn-primary">{cardData.button.label}</a>
             </div>
         </div>
     )
