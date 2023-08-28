@@ -10,3 +10,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background: #f5f5f5;
+}
+
+.hero-header {
+    height: 620px;
+    background: linear-gradient(#00367C90, #00367C90), url("https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"); /*esto hace máscara de color*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text{
+    margin-top: 25%;
+}
+
+
+.btn{
+    background: #C76A00;
+    width: 200px;
+    border: none;
+    color:#F5f5f5;
+    border-radius: 25px;
+}
+
+.custom-shape-divider-top-1693265318 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1693265318 svg {
+    position: relative;
+    display: block;
+    width: calc(153% + 5px);
+    height: 56px;
+}
+
+.custom-shape-divider-top-1693265318 .shape-fill {
+    fill: #F5f5f5;
+}
+
+

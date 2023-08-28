@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Fatfooter from "./Fatfooter";
 import CardSet from "./CardSet";
+import Banner from "./banner";
 
 // card section setting
 
@@ -13,6 +14,7 @@ const Home = () => {
 	return (
 		<div className="container text-center">
 			<Navbar/>
+			<Banner/>
 			<Jumbotron/>
 			<div className="row align-items">
 				{
